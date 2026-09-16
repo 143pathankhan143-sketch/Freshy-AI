@@ -1,0 +1,1748 @@
+                         👤 USER
+                    Voice / Text / Command
+                              │
+                              ▼
+                 ┌─────────────────────────┐
+                 │     🎙️ INPUT ENGINE     │
+                 │ STT • VAD • Text Input  │
+                 │ Hindi • Hinglish • Eng  │
+                 └────────────┬────────────┘
+                              │
+                              ▼
+        ╔══════════════════════════════════════════╗
+        ║              🧠 FRESHY CORE              ║
+        ║                                          ║
+        ║  Intent → Context → Planning → Decision ║
+        ║  Reasoning → Execution → Verification   ║
+        ╚══════════════════╤═══════════════════════╝
+                           │
+             ┌─────────────┼─────────────┐
+             │             │             │
+             ▼             ▼             ▼
+      ┌────────────┐ ┌────────────┐ ┌────────────┐
+      │ 🤖 AI BRAIN│ │ 🧩 MEMORY  │ │ 📋 PLANNER │
+      │            │ │            │ │            │
+      │ GPT-OSS    │ │ Short-term │ │ Tasks      │
+      │ Gemini     │ │ Long-term  │ │ Steps      │
+      │ OpenRouter │ │ Semantic   │ │ Goals      │
+      │ SambaNova  │ │ Voyage     │ │ State      │
+      └─────┬──────┘ └─────┬──────┘ └─────┬──────┘
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                 ┌─────────────────────┐
+                 │ ⚡ AGENT ENGINE      │
+                 │                     │
+                 │ Think → Act →       │
+                 │ Observe → Decide →  │
+                 │ Retry → Complete    │
+                 └──────────┬──────────┘
+                            │
+             ┌──────────────┼──────────────┐
+             ▼              ▼              ▼
+       ┌───────────┐  ┌────────────┐  ┌────────────┐
+       │ 🌐 WEB    │  │ 🛠️ TOOLS   │  │ ⚙️ AUTOMATE│
+       │           │  │            │  │            │
+       │ Tavily    │  │ Files      │  │ Scheduler  │
+       │ Search    │  │ Shell      │  │ Reminders  │
+       │ Research  │  │ Apps       │  │ Workflows  │
+       │ Websites  │  │ Projects   │  │ Background │
+       └─────┬─────┘  └─────┬──────┘  └─────┬──────┘
+             │              │              │
+             └──────────────┼──────────────┘
+                            ▼
+                  ┌─────────────────────┐
+                  │ 🔐 SAFETY GATE       │
+                  │                     │
+                  │ Permission          │
+                  │ Validation          │
+                  │ Sandboxing          │
+                  │ Confirmation        │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │ 🔄 EXECUTION ENGINE │
+                  │                     │
+                  │ Execute Tool        │
+                  │ Monitor Result      │
+                  │ Error Handling      │
+                  │ Retry / Fallback    │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │ 🧠 RESULT PROCESSOR │
+                  │                     │
+                  │ Verify Result       │
+                  │ Update Memory       │
+                  │ Update Task State   │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │ 💬 RESPONSE ENGINE  │
+                  │                     │
+                  │ Final Answer        │
+                  │ Context-aware       │
+                  │ Hindi/Hinglish/Eng  │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │ 🔊 VOICE ENGINE     │
+                  │                     │
+                  │ Local TTS           │
+                  │ Gemini TTS Option   │
+                  │ Voice Selection     │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                           👤 USER
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                         👤 USER
+                  Voice / Text / Command
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🎙️ INPUT LAYER                            │
+│                                                              │
+│  Text Input • Whisper • Vosk • VAD • Wake Word              │
+│  Hindi • Hinglish • English • Auto Language Detection       │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🧠 FRESHY CORE                            │
+│                                                              │
+│  Intent Detection                                            │
+│  Context Understanding                                       │
+│  User Profile                                                 │
+│  Goal Understanding                                           │
+│  Decision Making                                              │
+│  Reasoning                                                    │
+│  Task Classification                                          │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌══════════════════════════════════════════════════════════════╗
+║                    🧠 AI ORCHESTRATOR                        ║
+║                                                              ║
+║  ┌──────────────┐  ┌──────────────┐  ┌────────────────┐     ║
+║  │ AI BRAIN     │  │ MEMORY       │  │ PLANNER        │     ║
+║  │              │  │              │  │                │     ║
+║  │ GPT-OSS      │  │ Short-Term   │  │ Goal Manager   │     ║
+║  │ Gemini       │  │ Long-Term    │  │ Task Planner   │     ║
+║  │ OpenRouter   │  │ Semantic     │  │ Step Planner   │     ║
+║  │ SambaNova    │  │ Episodic     │  │ State Manager  │     ║
+║  │ Groq         │  │ User Memory  │  │ Priority       │     ║
+║  │ Mistral      │  │ Vector Store │  │ Dependencies   │     ║
+║  └──────────────┘  └──────────────┘  └────────────────┘     ║
+║                                                              ║
+║                 THINK → PLAN → DECIDE                       ║
+╚═══════════════════════════╤══════════════════════════════════╝
+                            │
+                            ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🤖 AGENT ENGINE                            │
+│                                                              │
+│              Autonomous Task Execution                       │
+│                                                              │
+│       THINK → ACT → OBSERVE → VERIFY → RETRY                │
+│                         │                                    │
+│                   ┌─────┴─────┐                              │
+│                   │           │                              │
+│                 SUCCESS      FAILURE                         │
+│                   │           │                              │
+│                   ▼           ▼                              │
+│                COMPLETE   RECOVER / FALLBACK                 │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🔧 TOOL & ACTION LAYER                    │
+│                                                              │
+│  🌐 WEB TOOLS                                                │
+│     Tavily • Search • Research • Websites • APIs            │
+│                                                              │
+│  💻 SYSTEM TOOLS                                             │
+│     Shell • Files • Folders • Processes • Terminal          │
+│                                                              │
+│  📱 DEVICE TOOLS                                             │
+│     Apps • Notifications • Clipboard • Android Actions      │
+│                                                              │
+│  🧑‍💻 DEVELOPMENT TOOLS                                     │
+│     Code • Git • Projects • Build • Test • Debug            │
+│                                                              │
+│  ⚙️ AUTOMATION TOOLS                                         │
+│     Scheduler • Reminders • Workflows • Background Tasks    │
+│                                                              │
+│  🔌 API / CUSTOM TOOLS                                       │
+│     External APIs • Plugins • User-defined Tools             │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🔐 SAFETY / POLICY GATE                   │
+│                                                              │
+│  Permission Check                                            │
+│  Tool Validation                                              │
+│  Risk Classification                                          │
+│  User Confirmation                                            │
+│  Sandboxing                                                   │
+│  File / System Access Rules                                   │
+│  Sensitive Action Protection                                  │
+│                                                              │
+│        ❌ BLOCK   │   ⚠️ CONFIRM   │   ✅ ALLOW              │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                  ⚡ EXECUTION ENGINE                          │
+│                                                              │
+│  Execute Action                                               │
+│  Monitor Process                                              │
+│  Capture Output                                               │
+│  Timeout Handling                                              │
+│  Error Detection                                               │
+│  Retry                                                        │
+│  Provider / Tool Fallback                                     │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    🔍 VERIFICATION ENGINE                     │
+│                                                              │
+│  Did the action actually work?                               │
+│  Validate output                                              │
+│  Check expected state                                         │
+│  Detect partial failure                                       │
+│  Correct / Retry / Recover                                    │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                 🧠 STATE + MEMORY UPDATE                     │
+│                                                              │
+│  Conversation State                                           │
+│  Task State                                                   │
+│  User Preferences                                             │
+│  Successful Actions                                           │
+│  Important Facts                                              │
+│  Long-Term Memory                                             │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                   💬 RESPONSE ENGINE                         │
+│                                                              │
+│  Context-Aware Response                                       │
+│  Result Explanation                                           │
+│  Hindi / Hinglish / English                                   │
+│  Concise / Detailed Mode                                      │
+│  Text Response                                                 │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     🔊 VOICE ENGINE                          │
+│                                                              │
+│  TTS Engine                                                   │
+│  Gemini TTS                                                   │
+│  XTTS / Local TTS                                             │
+│  Voice Selection                                              │
+│  Language Selection                                           │
+│  Startup Greeting                                             │
+│  Interrupt / Mute on User Speech                              │
+└──────────────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+                         👤 USER
+                           │
+                           │
+                           └───────────► 🔄 CONTINUOUS LOOP
+                           
+                           🔄 Aur poora Freshy loop exactly ye hoga
+                           
+                           USER
+ ↓
+INPUT
+ ↓
+UNDERSTAND
+ ↓
+FRESHY CORE
+ ↓
+AI ORCHESTRATOR
+ ↓
+MEMORY + CONTEXT
+ ↓
+PLAN
+ ↓
+AGENT ENGINE
+ ↓
+TOOL / WEB / SYSTEM / AUTOMATION
+ ↓
+SAFETY GATE
+ ↓
+EXECUTE
+ ↓
+OBSERVE
+ ↓
+VERIFY
+ ↓
+ ┌───────────────┐
+ │ SUCCESS ?     │
+ └───────┬───────┘
+       YES│        NO
+          │         │
+          ▼         ▼
+       COMPLETE   RETRY
+          │         │
+          │      FALLBACK
+          │         │
+          │      RE-PLAN
+          │         │
+          └────┬────┘
+               ▼
+        MEMORY UPDATE
+               ↓
+        RESPONSE ENGINE
+               ↓
+         VOICE / TEXT
+               ↓
+             USER
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                                                    👤 USER
+                VOICE • TEXT • COMMAND
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  🎙️ 1. INPUT & PERCEPTION                  ║
+║                                                              ║
+║ Text Input • Whisper • Vosk • STT • VAD • Wake Word         ║
+║ Language Detection • Hindi • Hinglish • English             ║
+║ Audio Events • Device Events • External Events              ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  🧠 2. FRESHY CORE                          ║
+║                                                              ║
+║ Intent Understanding                                         ║
+║ Context Understanding                                        ║
+║ User Profile                                                 ║
+║ Goal Understanding                                           ║
+║ Task Classification                                          ║
+║ Priority Detection                                           ║
+║ Reasoning                                                    ║
+║ Decision Making                                              ║
+║ Personality / Behavior Rules                                 ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║               🧠 3. AI ORCHESTRATION LAYER                  ║
+║                                                              ║
+║ ┌──────────────────┐  ┌──────────────────┐                  ║
+║ │   AI BRAIN       │  │   MODEL ROUTER   │                  ║
+║ │                  │  │                  │                  ║
+║ │ GPT-OSS          │  │ Best Model       │                  ║
+║ │ Gemini           │  │ Task → Model     │                  ║
+║ │ OpenRouter       │  │ Cost / Speed     │                  ║
+║ │ Groq             │  │ Quality          │                  ║
+║ │ Mistral          │  │ Fallback          │                  ║
+║ │ SambaNova        │  │ Provider Health  │                  ║
+║ └──────────────────┘  └──────────────────┘                  ║
+║                                                              ║
+║              THINK → REASON → DECIDE                         ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  🧠 4. MEMORY SYSTEM                         ║
+║                                                              ║
+║ Working Memory                                               ║
+║ Short-Term Memory                                            ║
+║ Long-Term Memory                                             ║
+║ Semantic Memory                                              ║
+║ Episodic Memory                                              ║
+║ User Memory                                                  ║
+║ Preferences                                                  ║
+║ Facts                                                        ║
+║ Previous Tasks                                               ║
+║ Successful / Failed Actions                                  ║
+║ Vector Store / Retrieval                                     ║
+║ Memory Importance + Expiration                               ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                    📋 5. PLANNER                             ║
+║                                                              ║
+║ Goal Manager                                                 ║
+║ Task Decomposition                                           ║
+║ Subtasks                                                     ║
+║ Step Planning                                                ║
+║ Dependencies                                                 ║
+║ Priority                                                     ║
+║ Scheduling                                                   ║
+║ State Management                                             ║
+║ Parallel / Sequential Tasks                                  ║
+║ Re-Planning                                                  ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  🤖 6. AGENT ENGINE                          ║
+║                                                              ║
+║ Autonomous Agent Runtime                                     ║
+║                                                              ║
+║ THINK                                                        ║
+║   ↓                                                          ║
+║ PLAN                                                         ║
+║   ↓                                                          ║
+║ ACT                                                          ║
+║   ↓                                                          ║
+║ OBSERVE                                                      ║
+║   ↓                                                          ║
+║ VERIFY                                                       ║
+║   ↓                                                          ║
+║ SUCCESS ────────────────► COMPLETE                           ║
+║   │                                                          ║
+║ FAILURE                                                      ║
+║   ↓                                                          ║
+║ RECOVER → FALLBACK → REPLAN → RETRY                          ║
+║                                                              ║
+║ Single Agent • Multi-Agent • Sub-Agent • Parallel Agent      ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  🔐 7. SAFETY & POLICY GATE                  ║
+║                                                              ║
+║ Permission Management                                        ║
+║ Tool Validation                                               ║
+║ Risk Classification                                           ║
+║ User Confirmation                                             ║
+║ Sandboxing                                                    ║
+║ File Access Rules                                             ║
+║ System Access Rules                                           ║
+║ Sensitive Action Protection                                   ║
+║ Network / API Permissions                                     ║
+║                                                              ║
+║       ❌ BLOCK      ⚠️ CONFIRM      ✅ ALLOW                 ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                   🔧 8. TOOL REGISTRY                        ║
+║                                                              ║
+║ Every Tool Contains:                                         ║
+║                                                              ║
+║ Name • Description • Parameters                              ║
+║ Permission • Risk Level • Timeout                            ║
+║ Execution Method • Validation • Verification                 ║
+║                                                              ║
+║ ┌──────────────────────────────────────────────────────────┐ ║
+║ │ 🌐 WEB / RESEARCH                                       │ ║
+║ │ Search • Tavily • Websites • APIs • Research            │ ║
+║ ├──────────────────────────────────────────────────────────┤ ║
+║ │ 💻 SYSTEM                                               │ ║
+║ │ Shell • Terminal • Files • Folders • Processes          │ ║
+║ ├──────────────────────────────────────────────────────────┤ ║
+║ │ 📱 DEVICE                                               │ ║
+║ │ Apps • Notifications • Clipboard • Android Actions      │ ║
+║ ├──────────────────────────────────────────────────────────┤ ║
+║ │ 🧑‍💻 DEVELOPMENT                                        │ ║
+║ │ Code • Git • Build • Test • Debug • Project             │ ║
+║ ├──────────────────────────────────────────────────────────┤ ║
+║ │ ⚙️ AUTOMATION                                           │ ║
+║ │ Scheduler • Reminder • Workflow • Background Tasks      │ ║
+║ ├──────────────────────────────────────────────────────────┤ ║
+║ │ 🔌 CUSTOM / API                                         │ ║
+║ │ Plugins • External APIs • User-defined Tools            │ ║
+║ └──────────────────────────────────────────────────────────┘ ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                  ⚡ 9. EXECUTION ENGINE                      ║
+║                                                              ║
+║ Action Execution                                             ║
+║ Process Management                                           ║
+║ Real-Time Monitoring                                         ║
+║ Output Capture                                               ║
+║ Timeout Handling                                             ║
+║ Error Detection                                              ║
+║ Cancellation                                                 ║
+║ Retry                                                        ║
+║ Provider Fallback                                            ║
+║ Tool Fallback                                                ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                 👁️ 10. OBSERVATION ENGINE                   ║
+║                                                              ║
+║ Tool Output                                                  ║
+║ Process Status                                               ║
+║ System State                                                 ║
+║ Device State                                                 ║
+║ File State                                                   ║
+║ UI State                                                     ║
+║ Network State                                                ║
+║ Events                                                       ║
+║ Logs                                                         ║
+║ Environment Changes                                          ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                 🔍 11. VERIFICATION ENGINE                   ║
+║                                                              ║
+║ Expected Result?                                             ║
+║ Actual Result?                                               ║
+║ Output Valid?                                                ║
+║ State Changed Correctly?                                     ║
+║ Partial Failure?                                             ║
+║ Side Effect Detected?                                        ║
+║                                                              ║
+║        ┌───────────────┐                                     ║
+║        │   SUCCESS?    │                                     ║
+║        └───────┬───────┘                                     ║
+║                │                                             ║
+║        YES ────┴──── NO                                      ║
+║         │             │                                      ║
+║         ▼             ▼                                      ║
+║      COMPLETE      RECOVER                                   ║
+║                       ↓                                      ║
+║                   RE-PLAN                                    ║
+║                       ↓                                      ║
+║                    RETRY                                     ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║              🧠 12. STATE + MEMORY + LEARNING               ║
+║                                                              ║
+║ Conversation State                                           ║
+║ Task State                                                   ║
+║ Goal State                                                   ║
+║ User Preferences                                             ║
+║ Important Facts                                              ║
+║ Successful Actions                                           ║
+║ Failed Actions                                               ║
+║ Task History                                                 ║
+║ Long-Term Memory                                             ║
+║                                                              ║
+║ Feedback → Evaluation → Improvement                          ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                🌐 13. EVENT & AUTONOMY ENGINE                ║
+║                                                              ║
+║ User Events                                                  ║
+║ System Events                                                ║
+║ Device Events                                                ║
+║ Timer Events                                                 ║
+║ Scheduled Events                                             ║
+║ File Events                                                  ║
+║ Network Events                                               ║
+║ Application Events                                           ║
+║                                                              ║
+║ Background Runtime                                           ║
+║ Scheduled Tasks                                              ║
+║ Autonomous Tasks                                             ║
+║ Proactive Actions                                            ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                 💬 14. RESPONSE ENGINE                      ║
+║                                                              ║
+║ Context-Aware Response                                       ║
+║ Result Explanation                                           ║
+║ Hindi / Hinglish / English                                   ║
+║ Concise / Detailed Mode                                      ║
+║ Personality                                                  ║
+║ Conversation Continuity                                      ║
+║ Error Explanation                                            ║
+║ Action Summary                                               ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+╔══════════════════════════════════════════════════════════════╗
+║                    🔊 15. VOICE ENGINE                       ║
+║                                                              ║
+║ TTS                                                         ║
+║ Gemini TTS                                                   ║
+║ XTTS / Local TTS                                             ║
+║ Voice Selection                                              ║
+║ Language Selection                                           ║
+║ Startup Greeting                                             ║
+║ Streaming Speech                                             ║
+║ Interrupt                                                    ║
+║ Barge-In                                                     ║
+║ Mute When User Speaks                                        ║
+╚══════════════════════════╤═══════════════════════════════════╝
+                           │
+                           ▼
+                         👤 USER
+                           │
+                           │
+                           └───────────────────────────────────┐
+                                                               │
+                                                               ▼
+                                                        🔄 CONTINUOUS
+                                                           JARVIS LOOP
+                                                           
+                                                           🔄 Iska actual master loop
+                                                           USER
+ ↓
+PERCEIVE
+ ↓
+UNDERSTAND
+ ↓
+RETRIEVE MEMORY
+ ↓
+REASON
+ ↓
+DECIDE
+ ↓
+PLAN
+ ↓
+AGENT
+ ↓
+SAFETY CHECK
+ ↓
+SELECT TOOL
+ ↓
+EXECUTE
+ ↓
+OBSERVE
+ ↓
+VERIFY
+ ↓
+┌─────────────────────────────┐
+│       RESULT CORRECT?       │
+└──────────────┬──────────────┘
+               │
+        ┌──────┴──────┐
+        │             │
+       YES            NO
+        │             │
+        ▼             ▼
+    COMPLETE      RECOVER
+        │             │
+        │         FALLBACK
+        │             │
+        │         RE-PLAN
+        │             │
+        │           RETRY
+        │             │
+        │             └──────► EXECUTE
+        │
+        ▼
+STATE UPDATE
+ ↓
+MEMORY UPDATE
+ ↓
+LEARNING / FEEDBACK
+ ↓
+RESPONSE
+ ↓
+VOICE / TEXT
+ ↓
+USER
+ ↓
+🔄
+⚡ Aur autonomous mode mein
+User ke bina bhi:     EVENT
+ ↓
+EVENT ENGINE
+ ↓
+FRESHY CORE
+ ↓
+MEMORY
+ ↓
+REASON
+ ↓
+PLAN
+ ↓
+SAFETY
+ ↓
+AGENT
+ ↓
+TOOLS
+ ↓
+EXECUTE
+ ↓
+OBSERVE
+ ↓
+VERIFY
+ ↓
+MEMORY UPDATE
+ ↓
+RESPONSE / NOTIFICATION
+ ↓
+USER
+
+
+
+
+
+
+                              👤 USER
+                         VOICE • TEXT • COMMAND
+                                  │
+                                  ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                 1. 🎙️ PERCEPTION & INPUT LAYER                ║
+║                                                                  ║
+║ Text Input • Voice Input • Whisper • Vosk • STT • VAD           ║
+║ Wake Word • Language Detection • Hindi • Hinglish • English    ║
+║ Audio Events • Device Events • App Events • File Events        ║
+║ Network Events • Timer Events • External Events                 ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    2. 🧠 FRESHY CORE                           ║
+║                                                                  ║
+║ Identity • Session • Context • Intent • Goal Understanding      ║
+║ User Profile • Preferences • Task Classification                ║
+║ Priority • Emotion/Conversation Context • Behavior Rules        ║
+║ Reasoning • Decision Making • Capability Awareness              ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                 ┌───────────────┼────────────────┐
+                 ▼               ▼                ▼
+        ┌────────────────┐ ┌──────────────┐ ┌───────────────┐
+        │ 🧠 MEMORY      │ │ 🤖 AI BRAIN  │ │ 🎯 GOAL       │
+        │                │ │              │ │ MANAGER       │
+        │ Working        │ │ GPT-OSS      │ │ Goals         │
+        │ Short-Term     │ │ Gemini       │ │ Priorities    │
+        │ Long-Term      │ │ OpenRouter   │ │ Deadlines     │
+        │ Semantic       │ │ Groq         │ │ Task State    │
+        │ Episodic       │ │ Mistral      │ │ Dependencies  │
+        │ User Memory    │ │ SambaNova    │ │ Progress      │
+        │ Preferences    │ │ Local Models │ │               │
+        │ Facts          │ │              │ │               │
+        │ Vector Store   │ │              │ │               │
+        └───────┬────────┘ └──────┬───────┘ └───────┬───────┘
+                │                 │                 │
+                └─────────────────┼─────────────────┘
+                                  ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                  3. 🔀 AI ORCHESTRATION LAYER                  ║
+║                                                                  ║
+║ MODEL ROUTER                                                     ║
+║                                                                  ║
+║ Task → Best Model                                                ║
+║ Quality • Speed • Cost • Context • Capability                    ║
+║ Provider Health • Rate Limits • Availability                     ║
+║ Automatic Provider Fallback                                     ║
+║                                                                  ║
+║              THINK → REASON → DECIDE                            ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                     4. 📋 PLANNER                               ║
+║                                                                  ║
+║ Goal → Task → Subtask → Steps                                   ║
+║                                                                  ║
+║ Task Decomposition                                               ║
+║ Dependencies • Priority • Scheduling                             ║
+║ Parallel Tasks • Sequential Tasks                                ║
+║ Resource Planning • State Tracking                               ║
+║ Dynamic Re-Planning • Plan Validation                            ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    5. 🤖 AGENT ENGINE                           ║
+║                                                                  ║
+║                    THINK                                        ║
+║                      ↓                                           ║
+║                    PLAN                                         ║
+║                      ↓                                           ║
+║                     ACT                                         ║
+║                      ↓                                           ║
+║                   OBSERVE                                       ║
+║                      ↓                                           ║
+║                   VERIFY                                        ║
+║                      ↓                                           ║
+║                  SUCCESS?                                       ║
+║                  /      \                                       ║
+║                YES       NO                                     ║
+║                 ↓         ↓                                     ║
+║             COMPLETE   RECOVER                                  ║
+║                           ↓                                     ║
+║                       FALLBACK                                  ║
+║                           ↓                                     ║
+║                        REPLAN                                   ║
+║                           ↓                                     ║
+║                         RETRY                                   ║
+║                                                                  ║
+║ Single Agent • Multi-Agent • Sub-Agent                          ║
+║ Parallel Agent • Specialist Agent                               ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                 6. 🔐 SAFETY & PERMISSION GATE                 ║
+║                                                                  ║
+║ Identity Verification                                            ║
+║ Permission Management                                             ║
+║ Capability Check                                                  ║
+║ Tool Validation                                                   ║
+║ Risk Classification                                               ║
+║ File Access Rules                                                 ║
+║ System Access Rules                                               ║
+║ Network/API Permissions                                           ║
+║ Sensitive Action Protection                                       ║
+║ Sandbox                                                           ║
+║ User Confirmation                                                 ║
+║                                                                  ║
+║              ❌ BLOCK | ⚠️ CONFIRM | ✅ ALLOW                  ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                     7. 🔧 TOOL REGISTRY                         ║
+║                                                                  ║
+║ Every Tool:                                                      ║
+║ Name • Description • Parameters • Schema                         ║
+║ Permission • Risk • Timeout • Validation                         ║
+║ Execution Method • Verification • Fallback                      ║
+║                                                                  ║
+║ ┌──────────────────────────────────────────────────────────────┐ ║
+║ │ 🌐 WEB / RESEARCH                                           │ ║
+║ │ Search • Tavily • Websites • APIs • Research                │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ 💻 SYSTEM                                                   │ ║
+║ │ Shell • Terminal • Files • Folders • Processes              │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ 📱 DEVICE                                                   │ ║
+║ │ Apps • Clipboard • Notifications • Android Actions          │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ 🧑‍💻 DEVELOPMENT                                             │ ║
+║ │ Code • Git • Build • Test • Debug • Project                 │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ ⚙️ AUTOMATION                                               │ ║
+║ │ Scheduler • Reminder • Workflow • Triggers • Jobs           │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ 🔌 API / PLUGINS                                            │ ║
+║ │ Plugins • External APIs • Custom Tools                      │ ║
+║ ├──────────────────────────────────────────────────────────────┤ ║
+║ │ 🏠 SMART / EXTERNAL                                          │ ║
+║ │ IoT • Smart Devices • External Systems                      │ ║
+║ └──────────────────────────────────────────────────────────────┘ ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    8. ⚡ EXECUTION ENGINE                       ║
+║                                                                  ║
+║ Action Execution                                                 ║
+║ Process Management                                               ║
+║ Real-Time Monitoring                                             ║
+║ Output Capture                                                   ║
+║ Timeout                                                          ║
+║ Cancellation                                                     ║
+║ Error Detection                                                  ║
+║ Retry                                                            ║
+║ Tool Fallback                                                    ║
+║ Provider Fallback                                                ║
+║ Resource Management                                              ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    9. 👁️ OBSERVATION ENGINE                    ║
+║                                                                  ║
+║ Tool Output                                                      ║
+║ Process Status                                                   ║
+║ System State                                                     ║
+║ Device State                                                     ║
+║ File State                                                       ║
+║ UI State                                                         ║
+║ Network State                                                    ║
+║ Application State                                                ║
+║ Events • Logs • Environment Changes                              ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                  10. 🔍 VERIFICATION ENGINE                    ║
+║                                                                  ║
+║ Expected Result?                                                 ║
+║ Actual Result?                                                   ║
+║ Output Valid?                                                    ║
+║ State Changed Correctly?                                         ║
+║ Partial Failure?                                                 ║
+║ Side Effect?                                                     ║
+║                                                                  ║
+║                    SUCCESS?                                     ║
+║                    /    \                                       ║
+║                  YES     NO                                     ║
+║                   ↓       ↓                                     ║
+║              COMPLETE   RECOVER                                 ║
+║                           ↓                                     ║
+║                        REPLAN                                   ║
+║                           ↓                                     ║
+║                         RETRY                                   ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                11. 🗃️ STATE & TASK MANAGEMENT                  ║
+║                                                                  ║
+║ Conversation State                                               ║
+║ Task State                                                       ║
+║ Goal State                                                       ║
+║ Agent State                                                      ║
+║ Process State                                                    ║
+║ Automation State                                                 ║
+║ Scheduled Job State                                              ║
+║ Background Task State                                             ║
+║ Recovery State                                                   ║
+║ Persistent State Store                                           ║
+║                                                                  ║
+║ Crash Recovery • Resume • Checkpoint • Cancellation             ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                  12. 🧠 MEMORY & LEARNING                       ║
+║                                                                  ║
+║ Store Important Results                                          ║
+║ Store User Preferences                                           ║
+║ Store Facts                                                      ║
+║ Store Successful Actions                                         ║
+║ Store Failed Actions                                             ║
+║ Store Task History                                               ║
+║ Store Feedback                                                   ║
+║                                                                  ║
+║ Importance Scoring                                               ║
+║ Memory Expiration                                                ║
+║ Deduplication                                                    ║
+║ Retrieval                                                        ║
+║ Semantic Search                                                  ║
+║ Vector Database                                                  ║
+║                                                                  ║
+║ Feedback → Evaluation → Improvement                              ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                 13. ⚙️ AUTOMATION & WORKFLOW ENGINE            ║
+║                                                                  ║
+║ Trigger                                                        ║
+║    ↓                                                             ║
+║ Condition                                                       ║
+║    ↓                                                             ║
+║ Workflow                                                        ║
+║    ↓                                                             ║
+║ Task                                                            ║
+║    ↓                                                             ║
+║ Agent                                                           ║
+║    ↓                                                             ║
+║ Tool                                                            ║
+║    ↓                                                             ║
+║ Execute                                                         ║
+║    ↓                                                             ║
+║ Verify                                                          ║
+║                                                                  ║
+║ Triggers:                                                       ║
+║ • Time / Schedule                                               ║
+║ • Timer                                                         ║
+║ • User Event                                                    ║
+║ • Device Event                                                  ║
+║ • App Event                                                     ║
+║ • File Event                                                    ║
+║ • Network Event                                                 ║
+║ • Location Event                                                ║
+║ • Webhook                                                       ║
+║ • API Event                                                     ║
+║ • Condition                                                     ║
+║                                                                  ║
+║ Cron • Recurring • One-Time • Conditional • Event-Based        ║
+║ Workflow Chains • Parallel Jobs • Background Jobs              ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║               14. 🌐 AUTONOMY / EVENT ENGINE                   ║
+║                                                                  ║
+║                       EVENT                                     ║
+║                        ↓                                         ║
+║                  EVENT MANAGER                                  ║
+║                        ↓                                         ║
+║                  PRIORITY CHECK                                  ║
+║                        ↓                                         ║
+║                  CONTEXT LOAD                                   ║
+║                        ↓                                         ║
+║                   FRESHY CORE                                   ║
+║                        ↓                                         ║
+║                    MEMORY                                       ║
+║                        ↓                                         ║
+║                    REASON                                       ║
+║                        ↓                                         ║
+║                     PLAN                                        ║
+║                        ↓                                         ║
+║                    SAFETY                                       ║
+║                        ↓                                         ║
+║                    AGENT                                        ║
+║                        ↓                                         ║
+║                    TOOLS                                        ║
+║                        ↓                                         ║
+║                   EXECUTE                                       ║
+║                        ↓                                         ║
+║                   OBSERVE                                       ║
+║                        ↓                                         ║
+║                   VERIFY                                        ║
+║                        ↓                                         ║
+║                 STATE UPDATE                                    ║
+║                        ↓                                         ║
+║                 MEMORY UPDATE                                   ║
+║                        ↓                                         ║
+║              NOTIFICATION / RESPONSE                            ║
+║                                                                  ║
+║ Background Runtime • Proactive Actions • Scheduled Tasks        ║
+║ Autonomous Workflows • Event Monitoring                         ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                 15. 🩺 HEALTH & OBSERVABILITY                  ║
+║                                                                  ║
+║ AI Provider Health                                               ║
+║ Tool Health                                                      ║
+║ Agent Health                                                     ║
+║ Memory Health                                                    ║
+║ Database Health                                                  ║
+║ Network Health                                                   ║
+║ Device Health                                                    ║
+║ Process Health                                                   ║
+║                                                                  ║
+║ Metrics • Logs • Errors • Performance                            ║
+║ Rate Limits • Usage • Cost • Latency                             ║
+║ Automatic Failure Detection                                      ║
+║ Automatic Fallback                                                ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    16. 📝 AUDIT & HISTORY                      ║
+║                                                                  ║
+║ User Request                                                    ║
+║ Intent                                                          ║
+║ Plan                                                            ║
+║ Agent                                                           ║
+║ Safety Decision                                                 ║
+║ Tool Used                                                       ║
+║ Parameters                                                      ║
+║ Execution                                                       ║
+║ Output                                                          ║
+║ Verification                                                   ║
+║ Error                                                           ║
+║ Recovery                                                        ║
+║ Final Result                                                    ║
+║                                                                  ║
+║ Complete Action Trace • Debugging • Analytics                    ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                    17. 💬 RESPONSE ENGINE                      ║
+║                                                                  ║
+║ Understand Result                                                ║
+║ Context-Aware Response                                           ║
+║ Action Summary                                                   ║
+║ Result Explanation                                               ║
+║ Error Explanation                                                ║
+║ Conversation Continuity                                         ║
+║ Hindi • Hinglish • English                                      ║
+║ Concise • Normal • Detailed                                     ║
+║ Personality / Behavior                                           ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                     18. 🔊 VOICE ENGINE                        ║
+║                                                                  ║
+║ TTS • Gemini TTS • XTTS • Local TTS                              ║
+║ Voice Selection • Language Selection                             ║
+║ Streaming Speech                                                 ║
+║ Interrupt • Barge-In                                              ║
+║ Mute When User Speaks                                            ║
+║ Startup Greeting                                                  ║
+║ Speech Queue                                                      ║
+╚════════════════════════════════╤═════════════════════════════════╝
+                                 │
+                                 ▼
+                              👤 USER
+                                 │
+                                 │
+                                 └───────────────🔄───────────────┐
+                                                                  │
+                                                                  ▼
+                                                           CONTINUOUS LOOP
+                                                           
+                                                           ⚡ Aur is poore system ka ACTUAL MASTER LOOP
+Ye sabse important part hai bhai.                             👤 USER / EVENT
+                               │
+                               ▼
+                           PERCEIVE
+                               │
+                               ▼
+                          UNDERSTAND
+                               │
+                               ▼
+                       RETRIEVE MEMORY
+                               │
+                               ▼
+                            REASON
+                               │
+                               ▼
+                            DECIDE
+                               │
+                               ▼
+                             PLAN
+                               │
+                               ▼
+                            AGENT
+                               │
+                               ▼
+                        SAFETY CHECK
+                               │
+                               ▼
+                         SELECT TOOL
+                               │
+                               ▼
+                           EXECUTE
+                               │
+                               ▼
+                           OBSERVE
+                               │
+                               ▼
+                           VERIFY
+                               │
+                     ┌─────────┴─────────┐
+                     │                   │
+                   SUCCESS             FAILURE
+                     │                   │
+                     ▼                   ▼
+                  COMPLETE            RECOVER
+                                         │
+                                      FALLBACK
+                                         │
+                                       REPLAN
+                                         │
+                                       RETRY
+                                         │
+                                         └──────► EXECUTE
+                     │
+                     ▼
+                  UPDATE STATE
+                     │
+                     ▼
+                UPDATE MEMORY
+                     │
+                     ▼
+              LEARNING / FEEDBACK
+                     │
+                     ▼
+                  RESPOND
+                     │
+              ┌──────┴──────┐
+              ▼             ▼
+            TEXT          VOICE
+              │             │
+              └──────┬──────┘
+                     ▼
+                    USER
+                     │
+                     └───────────────🔄
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                                                   👤 USER
+                       VOICE • TEXT • COMMAND
+                              │
+                              ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 1. 🎙️ PERCEPTION & INPUT LAYER                   ║
+║                                                                      ║
+║ Text Input • Voice Input • Microphone • Audio Stream                ║
+║ Whisper • Vosk • STT • VAD • Wake Word                             ║
+║ Hindi • Hinglish • English • Language Detection                     ║
+║                                                                      ║
+║ Events:                                                              ║
+║ Audio • Device • App • File • Network • Timer • Webhook • API       ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 2. 🎤 SPEAKER IDENTITY ENGINE                     ║
+║                                                                      ║
+║ Voice Enrollment                                                   ║
+║ • Multiple Voice Samples                                           ║
+║ • Voice Feature Extraction                                         ║
+║ • Speaker Embedding                                                ║
+║ • Personal Voice Profile                                            ║
+║                                                                      ║
+║ Runtime Verification                                               ║
+║ • Speaker Recognition                                               ║
+║ • Voice Match Score                                                 ║
+║ • Confidence                                                        ║
+║ • Anti-spoof / Liveness Checks                                      ║
+║                                                                      ║
+║ OUTPUT: WHO IS SPEAKING?                                            ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 3. 🪪 IDENTITY & SESSION ENGINE                   ║
+║                                                                      ║
+║ User Identity • Device Identity • Session Identity                  ║
+║ Authentication • Session Lifecycle                                  ║
+║ Trusted / Untrusted State                                            ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                     4. 🧠 FRESHY CORE                              ║
+║                                                                      ║
+║ Intent Understanding                                                ║
+║ Goal Understanding                                                  ║
+║ Context Understanding                                               ║
+║ Conversation Understanding                                          ║
+║ User Profile • Preferences                                          ║
+║ Priority • Behavior Rules                                           ║
+║ Emotion / Conversation Context                                      ║
+║ Reasoning • Decision Making                                         ║
+║ Capability Awareness                                                ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                ┌──────────────┼───────────────┐
+                ▼              ▼               ▼
+        ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+        │ 🧠 MEMORY    │ │ 🤖 AI BRAIN  │ │ 🎯 GOAL      │
+        │              │ │              │ │ MANAGER      │
+        │ Working      │ │ GPT / OSS    │ │ Goals        │
+        │ Short-Term   │ │ Gemini       │ │ Priorities   │
+        │ Long-Term    │ │ OpenRouter   │ │ Deadlines    │
+        │ Semantic     │ │ Groq         │ │ Dependencies │
+        │ Episodic     │ │ Mistral      │ │ Progress     │
+        │ User Memory  │ │ SambaNova    │ │ Task State   │
+        │ Vector Store │ │ Local Models │ │              │
+        └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
+               │                 │                 │
+               └─────────────────┼─────────────────┘
+                                 ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 5. 🧩 CONTEXT MANAGER                             ║
+║                                                                      ║
+║ Conversation Context                                                ║
+║ Task Context                                                        ║
+║ Goal Context                                                        ║
+║ User Context                                                        ║
+║ Device Context                                                      ║
+║ Environment Context                                                 ║
+║ Temporal Context                                                    ║
+║                                                                      ║
+║                 → UNIFIED CONTEXT                                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 6. 🔀 AI ORCHESTRATION ENGINE                     ║
+║                                                                      ║
+║ Model Router                                                        ║
+║ Task → Best Model                                                   ║
+║                                                                      ║
+║ Quality • Speed • Cost • Context • Capability                       ║
+║ Provider Health • Rate Limits • Availability                        ║
+║ Automatic Provider Fallback                                         ║
+║                                                                      ║
+║                  THINK → REASON → DECIDE                            ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                     7. 📋 PLANNER                                  ║
+║                                                                      ║
+║ Goal → Task → Subtask → Steps                                       ║
+║                                                                      ║
+║ Task Decomposition • Dependencies • Priority                        ║
+║ Scheduling • Parallel Tasks • Sequential Tasks                      ║
+║ Resource Planning • State Tracking                                  ║
+║ Dynamic Re-planning • Plan Validation                               ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                    8. 🤖 AGENT ENGINE                              ║
+║                                                                      ║
+║                       THINK                                        ║
+║                         ↓                                           ║
+║                       PLAN                                         ║
+║                         ↓                                           ║
+║                        ACT                                          ║
+║                         ↓                                           ║
+║                     OBSERVE                                         ║
+║                         ↓                                           ║
+║                     VERIFY                                          ║
+║                         ↓                                           ║
+║                    SUCCESS?                                         ║
+║                   /        \                                        ║
+║                 YES         NO                                      ║
+║                  ↓           ↓                                      ║
+║              COMPLETE      RECOVER                                  ║
+║                               ↓                                     ║
+║                           FALLBACK                                  ║
+║                               ↓                                     ║
+║                            REPLAN                                   ║
+║                               ↓                                     ║
+║                             RETRY                                   ║
+║                                                                      ║
+║ Single Agent • Multi-Agent • Sub-Agent • Specialist Agent           ║
+║ Parallel Agent                                                       ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 9. 🔐 SAFETY & PERMISSION GATE                    ║
+║                                                                      ║
+║ Identity Verification                                               ║
+║ Speaker Verification                                                ║
+║ Permission Management                                               ║
+║ Capability Check                                                    ║
+║ Tool Validation                                                     ║
+║ Risk Classification                                                 ║
+║ File Access Rules                                                   ║
+║ System Access Rules                                                 ║
+║ Network / API Permissions                                           ║
+║ Sensitive Action Protection                                         ║
+║ Sandbox                                                              ║
+║ User Confirmation                                                   ║
+║                                                                      ║
+║             ❌ BLOCK     ⚠️ CONFIRM     ✅ ALLOW                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 10. 🧩 CAPABILITY REGISTRY                        ║
+║                                                                      ║
+║ What Can Freshy Do?                                                 ║
+║                                                                      ║
+║ Web • Search • Research                                             ║
+║ Files • Folders • Shell • Terminal                                  ║
+║ Apps • Clipboard • Notifications                                    ║
+║ Android Actions                                                     ║
+║ Code • Git • Build • Test • Debug                                   ║
+║ Scheduler • Reminder • Workflow                                     ║
+║ APIs • Plugins • External Systems                                   ║
+║ Smart / IoT Devices                                                 ║
+║                                                                      ║
+║ Capability: AVAILABLE / UNAVAILABLE / RESTRICTED                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                    11. 🔧 TOOL REGISTRY                            ║
+║                                                                      ║
+║ Every Tool Contains:                                                ║
+║ Name • Description • Parameters • Schema                            ║
+║ Permission • Risk • Timeout                                         ║
+║ Validation • Execution Method                                       ║
+║ Verification • Fallback                                              ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                  12. ⚡ EXECUTION ENGINE                           ║
+║                                                                      ║
+║ Action Execution • Process Management                               ║
+║ Real-Time Monitoring • Output Capture                               ║
+║ Timeout • Cancellation • Error Detection                            ║
+║ Retry • Tool Fallback • Provider Fallback                           ║
+║ Resource Management                                                  ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                  13. 👁️ OBSERVATION ENGINE                        ║
+║                                                                      ║
+║ Tool Output • Process Status • System State                          ║
+║ Device State • File State • UI State                                ║
+║ Network State • Application State                                   ║
+║ Events • Logs • Environment Changes                                 ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                  14. 🔍 VERIFICATION ENGINE                       ║
+║                                                                      ║
+║ Expected Result?                                                    ║
+║ Actual Result?                                                      ║
+║ Output Valid?                                                       ║
+║ State Changed Correctly?                                            ║
+║ Partial Failure?                                                    ║
+║ Unexpected Side Effect?                                             ║
+║                                                                      ║
+║                    SUCCESS?                                         ║
+║                   /       \                                         ║
+║                 YES        NO                                       ║
+║                  ↓          ↓                                       ║
+║              COMPLETE     RECOVER                                   ║
+║                              ↓                                      ║
+║                           REPLAN                                    ║
+║                              ↓                                      ║
+║                            RETRY                                    ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                15. 🗃️ STATE & TASK MANAGEMENT                     ║
+║                                                                      ║
+║ Conversation State • Task State • Goal State                        ║
+║ Agent State • Process State • Automation State                      ║
+║ Scheduled Job State • Background Task State                         ║
+║ Recovery State • Persistent State                                   ║
+║                                                                      ║
+║ Checkpoint • Crash Recovery • Resume • Cancellation                 ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                  16. 🧠 MEMORY & LEARNING                         ║
+║                                                                      ║
+║ Store:                                                               ║
+║ User Preferences • Facts • Results • Task History                   ║
+║ Successful Actions • Failed Actions • Feedback                     ║
+║                                                                      ║
+║ Importance Scoring • Expiration • Deduplication                     ║
+║ Retrieval • Semantic Search • Vector Database                       ║
+║                                                                      ║
+║             FEEDBACK → EVALUATION → IMPROVEMENT                    ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║              17. ⚙️ AUTOMATION & WORKFLOW ENGINE                  ║
+║                                                                      ║
+║ Trigger → Condition → Workflow → Task → Agent → Tool → Execute     ║
+║                                                ↓                     ║
+║                                             Verify                   ║
+║                                                                      ║
+║ Triggers:                                                            ║
+║ Time • Schedule • Timer • User Event • Device Event                 ║
+║ App Event • File Event • Network Event • Location Event              ║
+║ Webhook • API Event • Condition                                     ║
+║                                                                      ║
+║ Cron • Recurring • One-Time • Conditional • Event-Based             ║
+║ Workflow Chains • Parallel Jobs • Background Jobs                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 18. 🌐 EVENT & AUTONOMY ENGINE                    ║
+║                                                                      ║
+║ EVENT → EVENT MANAGER → PRIORITY → CONTEXT → CORE                  ║
+║       → MEMORY → REASON → PLAN → SAFETY → AGENT                   ║
+║       → TOOL → EXECUTE → OBSERVE → VERIFY → STATE                  ║
+║       → MEMORY → NOTIFICATION / RESPONSE                            ║
+║                                                                      ║
+║ Background Runtime • Proactive Actions                              ║
+║ Event Monitoring • Autonomous Workflows                             ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                    19. 🚌 EVENT BUS                                ║
+║                                                                      ║
+║ Central Communication System                                        ║
+║                                                                      ║
+║ Voice Event • Timer Event • File Event • Device Event              ║
+║ App Event • Network Event • Webhook • API Event                    ║
+║                                                                      ║
+║ → Routes Events to the Correct Freshy Subsystem                    ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 20. 🩺 HEALTH & OBSERVABILITY                     ║
+║                                                                      ║
+║ AI Provider Health • Tool Health • Agent Health                     ║
+║ Memory Health • Database Health • Network Health                    ║
+║ Device Health • Process Health                                     ║
+║                                                                      ║
+║ Metrics • Logs • Errors • Performance                               ║
+║ Rate Limits • Usage • Cost • Latency                               ║
+║ Automatic Failure Detection • Automatic Fallback                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                    21. 📝 AUDIT & HISTORY                         ║
+║                                                                      ║
+║ Request • Intent • Identity • Plan • Agent                          ║
+║ Safety Decision • Tool • Parameters • Execution                    ║
+║ Output • Verification • Error • Recovery • Final Result            ║
+║                                                                      ║
+║ Complete Action Trace • Debugging • Analytics                       ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                  22. 💬 RESPONSE ENGINE                           ║
+║                                                                      ║
+║ Result Understanding • Context-Aware Response                       ║
+║ Action Summary • Result Explanation • Error Explanation             ║
+║ Conversation Continuity                                             ║
+║ Hindi • Hinglish • English                                          ║
+║ Concise • Normal • Detailed                                         ║
+║ Personality • Behavior                                               ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                    23. 🔊 VOICE ENGINE                            ║
+║                                                                      ║
+║ Gemini TTS • XTTS • Local TTS                                      ║
+║ Voice Selection • Language Selection                               ║
+║ Streaming Speech • Speech Queue                                    ║
+║ Interrupt • Barge-In                                               ║
+║ Mute When User Speaks                                              ║
+║ Startup Greeting                                                    ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+                              ╔══════════════════════════════════════════════════════════════════════╗
+║              24. 🔐 SECRETS & CONFIGURATION MANAGER               ║
+║                                                                      ║
+║ Central Configuration & Credential Management                        ║
+║                                                                      ║
+║ API Keys • Access Tokens • OAuth Credentials                         ║
+║ Provider Configuration • Model Configuration                         ║
+║ Environment Variables • Feature Flags                               ║
+║ User Configuration • System Configuration                            ║
+║                                                                      ║
+║ Secret Encryption • Secure Storage                                   ║
+║ Credential Rotation • Key Validation                                ║
+║ Configuration Validation • Configuration Versioning                 ║
+║ Runtime Configuration • Hot Reload                                  ║
+║                                                                      ║
+║ Provider Settings • Tool Settings • Voice Settings                  ║
+║ Memory Settings • Automation Settings • Permission Settings        ║
+║                                                                      ║
+║          🔒 SECRETS NEVER EXPOSED TO AI / LOGS / UI                 ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 25. 🛡️ PRIVACY & DATA PROTECTION                  ║
+║                                                                      ║
+║ Personal Data Protection                                            ║
+║ Voice Data • Speaker Embeddings • User Profile                      ║
+║ Memories • Conversations • Files • Logs                             ║
+║                                                                      ║
+║ Data Classification                                                 ║
+║ Public • Private • Sensitive • Highly Sensitive                     ║
+║                                                                      ║
+║ Encryption at Rest • Encryption in Transit                          ║
+║ Secure Memory Storage • Secure File Access                          ║
+║ Data Minimization • Data Retention                                  ║
+║ Expiration • Deletion • Data Export                                 ║
+║                                                                      ║
+║ Privacy Permissions • Consent • Access Control                      ║
+║ Sensitive Data Redaction                                            ║
+║ Secret Redaction in Logs                                            ║
+║ Local-Only Data Protection                                          ║
+║                                                                      ║
+║              🔒 COLLECT → PROTECT → USE → DELETE                   ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                 26. 🧵 CONCURRENCY & RESOURCE MANAGER             ║
+║                                                                      ║
+║ Central Runtime Resource & Task Coordination                        ║
+║                                                                      ║
+║ Concurrent Agents • Parallel Tasks • Background Tasks               ║
+║ Event Processing • Tool Execution • Provider Requests               ║
+║                                                                      ║
+║ Task Queue • Priority Queue • Worker Pool                           ║
+║ Job Scheduling • Resource Allocation                                ║
+║ CPU • Memory • Storage • Network • GPU                              ║
+║                                                                      ║
+║ Locks • Semaphores • Rate Limits • Quotas                           ║
+║ Cancellation • Timeout • Backpressure                               ║
+║ Race Condition Protection • Deadlock Prevention                     ║
+║ Process Isolation • Resource Cleanup                                ║
+║                                                                      ║
+║ Foreground Task • Background Task • Critical Task                   ║
+║                                                                      ║
+║       🧵 COORDINATE → EXECUTE → MONITOR → RELEASE                  ║
+╚══════════════════════════════╤═══════════════════════════════════════╝
+                               │
+                               27. Intelligent Request Router
+USER REQUEST / EVENT
+        ↓
+REQUEST ROUTER
+        ↓
+ ┌──────────────┬──────────────┬──────────────┬──────────────┐
+ │              │              │              │
+FAST PATH    CORE PATH      AGENT PATH     EVENT PATH
+ │              │              │              │
+Time         Normal Q       Coding         Scheduled Task
+Battery      Conversation   Complex Task   Automation
+Volume       Web Search      Multi-step     Background Event
+WiFi         Memory          Tool Use       Trigger
+Brightness   Knowledge       Planning       Workflow
+App Open     Reasoning       Execution      Monitoring
+ │              │              │              │
+ ↓              ↓              ↓              ↓
+Direct API    AI Brain       Full Agent     Automation
+/Local        + Tools        Pipeline       Engine
+Capability
+                               ▼
+                              👤 USER
+                               │
+                               └──────────────────────────────┐
+                                                              │
+                                                              ▼
+                                                        🔄 CONTINUOUS
+                                                          
+                                                           RUNTIME.   MASTER LOOP — Freshy ka actual heart
+Upar ke 23 modules architecture ke components hain, lekin Freshy ka fundamental control loop ye rahega:
+                  👤 USER / EVENT
+                        │
+                        ▼
+                     PERCEIVE
+                        │
+                        ▼
+                   IDENTIFY WHO
+                        │
+                        ▼
+                    UNDERSTAND
+                        │
+                        ▼
+                  LOAD CONTEXT
+                        │
+                        ▼
+                 RETRIEVE MEMORY
+                        │
+                        ▼
+                     REASON
+                        │
+                        ▼
+                     DECIDE
+                        │
+                        ▼
+                      PLAN
+                        │
+                        ▼
+                     AGENT
+                        │
+                        ▼
+                  SAFETY CHECK
+                        │
+                        ▼
+                CAPABILITY CHECK
+                        │
+                        ▼
+                  SELECT TOOL
+                        │
+                        ▼
+                    EXECUTE
+                        │
+                        ▼
+                    OBSERVE
+                        │
+                        ▼
+                    VERIFY
+                        │
+                  ┌─────┴─────┐
+                  │           │
+               SUCCESS      FAILURE
+                  │           │
+                  ▼           ▼
+               COMPLETE    RECOVER
+                              │
+                           FALLBACK
+                              │
+                            REPLAN
+                              │
+                             RETRY
+                              │
+                              └──────► EXECUTE
+                  │
+                  ▼
+              UPDATE STATE
+                  │
+                  ▼
+             UPDATE MEMORY
+                  │
+                  ▼
+          LEARNING / FEEDBACK
+                  │
+                  ▼
+                RESPOND
+                  │
+             ┌────┴────┐
+             ▼         ▼
+           TEXT       VOICE
+             │         │
+             └────┬────┘
+                  ▼
+                 👤
+                  │
+                  └────────── 🔄. 🧠 Aur Runtime ke bahar 4 permanent systems
+Ye master loop ke andar baar-baar execute hone wali cheezein nahi hain; ye Freshy ke continuously running infrastructure hain:
+                 ┌─────────────────────────┐
+                 │   🧠 FRESHY RUNTIME     │
+                 │      SUPERVISOR          │
+                 ├─────────────────────────┤
+                 │ Event Bus               │
+                 │ Health Monitor          │
+                 │ Scheduler               │
+                 │ Resource Manager        │
+                 │ Configuration Manager   │
+                 │ Plugin Manager          │
+                 │ Crash Recovery           │
+                 └───────────┬─────────────┘
+                             │
+                             ▼
+                      FRESHY CORE/RUNTIME
+                      
+                      
