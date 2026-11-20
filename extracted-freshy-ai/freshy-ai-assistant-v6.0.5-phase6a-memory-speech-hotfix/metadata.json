@@ -1,0 +1,8 @@
+{
+  "name": "Freshy AI Assistant",
+  "description": "Freshy Phase 6A desktop AI assistant with guarded chat tool calling, Flutter Windows UI, Python FastAPI core, multi-provider routing, persistent memory, stable voice output, Whisper/Vosk input, Gemini Live, and an optional desktop web preview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

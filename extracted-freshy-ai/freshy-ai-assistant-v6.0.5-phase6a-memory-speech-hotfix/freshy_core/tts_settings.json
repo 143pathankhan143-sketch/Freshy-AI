@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "provider": "gemini",
+  "natural_voice": "hindi_female",
+  "human_voice_profile": "",
+  "speech_language": "auto",
+  "voice_style": "natural",
+  "selected_voice": "",
+  "rate": 175,
+  "volume": 1.0,
+  "startup_greeting": true,
+  "fast_start_enabled": true,
+  "prepare_during_silence": true,
+  "fast_chunk_characters": 260,
+  "first_chunk_characters": 150,
+  "stable_audio_enabled": true,
+  "trim_boundary_silence": true,
+  "failure_behavior": "silent",
+  "fallback_provider": "none"
+}

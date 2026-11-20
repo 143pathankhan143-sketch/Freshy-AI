@@ -1,0 +1,7 @@
+# Install only in the isolated .venv-xtts environment.
+fastapi>=0.100.0,<1.0.0
+uvicorn>=0.22.0,<1.0.0
+python-dotenv>=1.0.0,<2.0.0
+torch>=2.2
+torchaudio>=2.2
+coqui-tts>=0.27.5,<0.28

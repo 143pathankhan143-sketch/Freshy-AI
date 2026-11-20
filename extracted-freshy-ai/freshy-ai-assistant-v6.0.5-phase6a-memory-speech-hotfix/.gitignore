@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv*/
+.pytest_cache/
+
+# Node & Build
+node_modules/
+dist/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ephemeral/
+
+# Windows
+*.user
+*.userossc
+*.sln
+*.suo
+*.cache
+*.dll
+*.exe
+*.obj
+
+# Environment & Secrets
+.env
+.env.local
+freshy_core/voice_settings.json
+freshy_core/live_settings.json
+
+# Downloaded offline speech models
+freshy_core/models/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Private consented human voice profiles / recordings
+freshy_core/voice_profiles/*/
+!freshy_core/voice_profiles/README.md
+
+# Phase 5 local memory databases and mobile preview memory
+freshy_core/data/*.db
+freshy_core/data/*.db-*
+.freshy-data/
