@@ -1,0 +1,16 @@
+fastapi>=0.100.0,<1.0.0
+uvicorn>=0.22.0,<1.0.0
+pydantic>=2.0.0,<3.0.0
+python-dotenv>=1.0.0
+google-genai>=1.0.0,<3.0.0
+requests>=2.31.0
+pytest>=7.4.0
+pyttsx3>=2.90
+pywin32>=306; sys_platform == 'win32'
+vosk>=0.3.45
+sounddevice>=0.4.6
+pynput>=1.7.6
+
+# Phase 4.2 hybrid speech input (Whisper remains switchable with Vosk)
+faster-whisper>=1.1.0,<2.0.0
+webrtcvad-wheels>=2.0.14,<3.0.0
